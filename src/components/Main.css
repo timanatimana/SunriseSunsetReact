@@ -1,0 +1,35 @@
+.card {
+  text-align: start;
+  min-height: 320px;
+  min-width: 620px;
+}
+
+label.label-lg {
+  min-width: 150px;
+}
+
+.icon {
+  justify-content: start !important;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+footer {
+  padding-bottom: 1.5rem;
+}
+
+.is-purple {
+  background-color: #646cff;
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    min-width: 100%;
+  }
+
+  #app {
+    max-width: -webkit-fill-available;
+  }
+}

@@ -34,7 +34,7 @@ const Output = () => {
   const SunriseLabel = () => {
     if (state.sunriseSunsetData) {
       return (
-        <label className="label label-lg mt-5 pl-2">
+        <label className="label label-lg mb-5 pl-2">
           {dayJs
             .utc(
               dayJs(state.sunriseSunsetData.dateString).format("dd/MM/YY ") +
@@ -46,13 +46,13 @@ const Output = () => {
         </label>
       );
     }
-    return <label className="label label-lg mt-5 pl-2"></label>;
+    return <label className="label label-lg mb-5 pl-2"></label>;
   };
 
   const SunsetLabel = () => {
     if (state.sunriseSunsetData) {
       return (
-        <label className="label label-lg mt-5 pl-2">
+        <label className="label label-lg mb-5 pl-2">
           {dayJs
             .utc(
               dayJs(state.sunriseSunsetData.dateString).format("dd/MM/YY ") +
@@ -64,7 +64,7 @@ const Output = () => {
         </label>
       );
     }
-    return <label className="label label-lg mt-5 pl-2"></label>;
+    return <label className="label label-lg mb-5 pl-2"></label>;
   };
 
   const DayLengthLabel = () => {
